@@ -1,0 +1,17 @@
+<div class="cp-sub-component">
+  <h3>{{cpData.title}}</h3>
+  <hr>
+  <form [formGroup]="profileForm">
+  
+      <label>
+        First Name:
+        <input type="text" formControlName="firstName" name="firstName">
+      </label>
+    
+      <label>
+        Last Name:
+        <input type="text" formControlName="lastName" name="lastName">
+      </label>
+    
+    </form>
+</div>
